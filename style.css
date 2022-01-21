@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color:#073b4c ;
+}
+
+h1{
+text-align: center;
+font-size: 4rem;
+color: white;
+}
+
+#container{
+    max-width: 1000px;
+    width: 100%;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 90px;
+    margin: 10px;
+    background-color: #118ab2;
+}
+
+.fizz{
+    background-color: yellow;
+}
+
+.buzz{
+    background-color: green;
+}
+
+.fizzbuzz{
+    background-color: red;
+}
